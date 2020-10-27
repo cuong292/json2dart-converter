@@ -10,7 +10,7 @@ data class NodeInfo(
         this(
             stringRepresentation,
             null,
-            "map[\"$name\"],\n",
+            "map[\'$name\'],\n",
             "\t\tdata['$name'] = $name;\n"
         )
 }
